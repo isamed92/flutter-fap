@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:contador/src/pages/home_page.dart';
+// import 'package:contador/src/pages/home_page.dart';
+
+import 'pages/contador_pages.dart';
 
 class MyApp extends StatelessWidget {
 
@@ -10,8 +12,11 @@ class MyApp extends StatelessWidget {
 
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Center(
-        child: HomePage()
+        
+        // child: HomePage()
+        child: ContadorPage()
         ),
 
     );
